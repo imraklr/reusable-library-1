@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/Rakesh Kumar/Desktop/cmake_learn/build/test/demoTests[1]_tests.cmake")
+  include("C:/Users/Rakesh Kumar/Desktop/cmake_learn/build/test/demoTests[1]_tests.cmake")
+else()
+  add_test(demoTests_NOT_BUILT demoTests_NOT_BUILT)
+endif()
