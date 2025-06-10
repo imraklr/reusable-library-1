@@ -1,6 +1,6 @@
-^C:\USERS\RAKESH KUMAR\DESKTOP\CMAKE_LEARN\SRC\CMAKELISTS.TXT
+^C:\USERS\RAKESH KUMAR\DESKTOP\REUSABLE-LIBRARY-1\SRC\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Rakesh Kumar/Desktop/cmake_learn" "-BC:/Users/Rakesh Kumar/Desktop/cmake_learn/build" --check-stamp-file "C:/Users/Rakesh Kumar/Desktop/cmake_learn/build/src/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Rakesh Kumar/Desktop/reusable-library-1" "-BC:/Users/Rakesh Kumar/Desktop/reusable-library-1/build" --check-stamp-file "C:/Users/Rakesh Kumar/Desktop/reusable-library-1/build/src/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

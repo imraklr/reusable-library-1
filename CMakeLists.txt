@@ -15,10 +15,10 @@ target_include_directories(${PROJECT_NAME} PUBLIC
 )
 
 # --- Test Configuration ---
-if(PROJECT_IS_TOP_LEVEL)
-    enable_testing()
-    add_subdirectory(test EXCLUDE_FROM_ALL)
-endif()
+#if(PROJECT_IS_TOP_LEVEL)
+#   enable_testing()
+#   add_subdirectory(test EXCLUDE_FROM_ALL)
+#endif()
 
 # --- Installation (for find_package compatibility) ---
 install(TARGETS demo # Install the 'demo' target

@@ -1,6 +1,6 @@
-^C:\USERS\RAKESH KUMAR\DESKTOP\CMAKE_LEARN\BUILD\CMAKEFILES\C82BE22DEB659AF2D88A92887988660C\GENERATE.STAMP.RULE
+^C:\USERS\RAKESH KUMAR\DESKTOP\REUSABLE-LIBRARY-1\BUILD\CMAKEFILES\0A2BFD59BB20E15B69FEBC406B433179\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Rakesh Kumar/Desktop/cmake_learn" "-BC:/Users/Rakesh Kumar/Desktop/cmake_learn/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Rakesh Kumar/Desktop/cmake_learn/build/demo.sln"
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Rakesh Kumar/Desktop/reusable-library-1" "-BC:/Users/Rakesh Kumar/Desktop/reusable-library-1/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Rakesh Kumar/Desktop/reusable-library-1/build/demo.sln"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
